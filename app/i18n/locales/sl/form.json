@@ -1,0 +1,11 @@
+{
+  "formFirstName": "Ime",
+  "formLastName": "Priimek",
+  "formEmail": "E-pošta",
+  "formMessage": "Sporočilo",
+  "formPlaceholder": "Povejte nam o sebi in katere termine vas zanimajo...",
+  "formButton": "Pošlji povpraševanje",
+  "formSending": "Pošiljanje...",
+  "formSuccess": "Sporočilo uspešno poslano! Pričakujte odgovor v roku nekaj dni.",
+  "formError": "Prosimo, izpolnite vsa obvezna polja"
+}

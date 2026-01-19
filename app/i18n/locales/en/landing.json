@@ -1,0 +1,118 @@
+{
+  "title": "Inhale Blue",
+  "language": "Language",
+  "email": "info@inhaleblue.com",
+  "phone": "+386 41 335 646",
+  "name": "Tadej",
+  "formContact": "Contact us at",
+  "formOr": "or call",
+  "notFound": {
+    "code": "404",
+    "message": "Oops! Page not found",
+    "backToHome": "Return to Home"
+  },
+  "nav": {
+    "about": "About",
+    "philosophy": "Philosophy",
+    "courses": "Courses",
+    "team": "Team",
+    "connect": "Connect",
+    "backToHome": "← Back to Home"
+  },
+  "hero": {
+    "subtitle": "Freediving School",
+    "title1": "Discover the",
+    "title2": "silent world",
+    "philosophy": "Based on Apnea Academy philosophy",
+    "explore": "Explore the courses"
+  },
+  "about": {
+    "label": "About Us",
+    "title1": "Rediscover your",
+    "title2": "aquatic nature",
+    "paragraph1": "Inhale Blue is a freediving school based on Apnea Academy philosophy and didactics. Our approach is not numbers-oriented—it is not about meters of depth or times of apnea. What we strive for are feelings: relaxation and enjoyment underwater.",
+    "paragraph2": "Our starting point is humans' aquatic nature. This means we are all already freedivers, and with the right approach and knowledge, we only rediscover what is inherently part of our nature."
+  },
+  "principles": {
+    "label": "Our Philosophy",
+    "title": "Guiding principles",
+    "title1": "Safety",
+    "description1": "Responsible diving means uncompromisingly looking after ourselves and others, underwater and above.",
+    "title2": "Trust",
+    "description2": "Even more important than trusting others is trusting yourself—learning to listen to your body and mind.",
+    "title3": "Team",
+    "description3": "We are connected by deep friendship and a strong sense of trust, belonging, and unity.",
+    "title4": "Equalization",
+    "description4": "We teach the most modern ear equalization techniques, enabling completely relaxed and enjoyable dives.",
+    "title5": "Relaxation",
+    "description5": "A perfect dive means briefly forgetting the world above and completely surrendering to the water.",
+    "title6": "Individual Approach",
+    "description6": "In depth and apnea, everyone faces their own fears, so we dedicate ourselves to each person individually.",
+    "title7": "Enjoyment",
+    "description7": "Complete relaxation, a sense of safety, and team trust create an incredible connection with yourself and the sea.",
+    "title8": "Holistic Experience",
+    "description8": "Our courses are longer than usual, enabling faster progress and a complete immersion into yourself."
+  },
+  "courses": {
+    "label": "Experiences",
+    "title": "Courses & Training",
+    "learnMore": "Learn more",
+    "title1": "Blue Week in Pag",
+    "location1": "Croatia",
+    "time1": "June & August",
+    "duration1": "6 days",
+    "description1": "Our signature freediving course for beginners and experienced freedivers. 6 days of total immersion into the world of freediving. A life-changing experience.",
+    "title2": "Depth Workshops",
+    "location2": "Padova, Italy",
+    "time2": "February",
+    "duration2": "1 day",
+    "description2": "One-day intensive training in a 40-meter deep pool. Focus on equalization techniques and relaxed depth diving with two dive series and balloon exercises.",
+    "title3": "Children of Silba",
+    "location3": "Silba, Croatia",
+    "time3": "July",
+    "duration3": "5 days",
+    "description3": "Freediving courses for kids following the Apnea Academy Kids as Dolphins program. Learning through play in the crystal-clear waters of Silba island.",
+    "title4": "Pool Training",
+    "location4": "Ljubljana, Slovenia",
+    "time4": "Weekly",
+    "duration4": "",
+    "description4": "Dynamic apnea with and without fins, static apnea, breathing, relaxation, and swimming techniques. Up to 4 days per week.",
+    "title5": "Bali Experience",
+    "location5": "Bali, Indonesia",
+    "time5": "March",
+    "duration5": "1 week",
+    "description5": "Our Bali freediving program is designed for adults seeking to explore breath-hold diving in a focused, safe, and inspiring environment."
+  },
+  "coursesPage": {
+    "location": "Experiences",
+    "title": "Courses & Training",
+    "subtitle": "Based on Apnea Academy philosophy"
+  },
+  "quote": {
+    "text1": "The scuba diver dives to look around,",
+    "text2": "the",
+    "freediver": "FREEDIVER",
+    "text3": "dives to look",
+    "inside": "INSIDE",
+    "author": "Umberto Pelizzari",
+    "authorTitle": "Founder of Apnea Academy International"
+  },
+  "newsletter": {
+    "label": "Stay Connected",
+    "title": "Join our journey",
+    "description": "Subscribe to receive updates on upcoming courses, events, and insights into the world of freediving.",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "submitting": "Subscribing...",
+    "success": "Welcome to Inhale Blue! Check your inbox soon.",
+    "errorEmail": "Please enter a valid email address"
+  },
+  "footer": {
+    "tagline": "Freediving School · Apnea Academy",
+    "about": "About",
+    "courses": "Courses",
+    "team": "Team",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

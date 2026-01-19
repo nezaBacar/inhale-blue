@@ -1,0 +1,118 @@
+{
+  "title": "Inhale Blue",
+  "language": "Jezik",
+  "email": "info@inhaleblue.com",
+  "phone": "+386 41 335 646",
+  "name": "Tadej",
+  "formContact": "Kontaktirajte nas na",
+  "formOr": "ali pokličite",
+  "notFound": {
+    "code": "404",
+    "message": "Ups! Strani ni bilo mogoče najti",
+    "backToHome": "Nazaj na domačo stran"
+  },
+  "nav": {
+    "about": "O nas",
+    "philosophy": "Filozofija",
+    "courses": "Tečaji",
+    "team": "Ekipa",
+    "connect": "Kontakt",
+    "backToHome": "← Nazaj domov"
+  },
+  "hero": {
+    "subtitle": "Šola proste potapljanja",
+    "title1": "Odkrijte",
+    "title2": "tihi svet",
+    "philosophy": "Po filozofiji Apnea Academy",
+    "explore": "Razišči tečaje"
+  },
+  "about": {
+    "label": "O nas",
+    "title1": "Ponovno odkrijte svojo",
+    "title2": "vodno naravo",
+    "paragraph1": "Inhale Blue je šola prostega potapljanja, ki temelji na filozofiji in didaktiki Apnea Academy. Naš pristop ni usmerjen v številke — ne gre za metre globine ali čas apneje. Prizadevamo si za občutke: sprostitev in uživanje pod vodo.",
+    "paragraph2": "Naše izhodišče je človekova vodna narava. To pomeni, da smo vsi že prosti potapljači, in s pravim pristopom ter znanjem le odkrivamo, kar je že del naše narave."
+  },
+  "principles": {
+    "label": "Naša filozofija",
+    "title": "Vodilni principi",
+    "title1": "Varnost",
+    "description1": "Odgovorno potapljanje pomeni brezkompromisno skrb zase in za druge, pod vodo in nad njo.",
+    "title2": "Zaupanje",
+    "description2": "Še pomembnejše od zaupanja drugim je zaupanje sebi — naučiti se poslušati svoje telo in um.",
+    "title3": "Ekipa",
+    "description3": "Povezuje nas globoko prijateljstvo in močan občutek zaupanja, pripadnosti in enotnosti.",
+    "title4": "Izravnava",
+    "description4": "Učimo najsodobnejše tehnike izravnave tlaka v ušesih, kar omogoča popolnoma sproščene in prijetne potope.",
+    "title5": "Sprostitev",
+    "description5": "Popoln potop pomeni, da za trenutek pozabiš svet nad sabo in se popolnoma prepustiš vodi.",
+    "title6": "Individualni pristop",
+    "description6": "V globini in apneji se vsak sooča s svojimi strahovi, zato se vsakemu posvečamo individualno.",
+    "title7": "Uživanje",
+    "description7": "Popolna sprostitev, občutek varnosti in zaupanje ekipe ustvarijo neverjetno povezanost s sabo in morjem.",
+    "title8": "Celostna izkušnja",
+    "description8": "Naši tečaji so daljši od običajnih, kar omogoča hitrejši napredek in popolno potopitev vase."
+  },
+  "courses": {
+    "label": "Izkušnje",
+    "title": "Tečaji in treningi",
+    "learnMore": "Več o tem",
+    "title1": "Modri teden na Pagu",
+    "location1": "Hrvaška",
+    "time1": "Junij & Avgust",
+    "duration1": "6 dni",
+    "description1": "Naš osrednji tečaj prostega potapljanja za začetnike in izkušene potapljače. 6 dni popolne potopitve v svet prostega potapljanja. Izkušnja, ki spreminja življenja.",
+    "title2": "Delavnice globine",
+    "location2": "Padova, Italija",
+    "time2": "Februar",
+    "duration2": "1 dan",
+    "description2": "Enodnevni intenzivni trening v 40-metrskem bazenu. Osredotočenost na tehnike izravnave in sproščeno globinsko potapljanje z dvema serijama potopov in vajami z baloni.",
+    "title3": "Otroci Silbe",
+    "location3": "Silba, Hrvaška",
+    "time3": "Julij",
+    "duration3": "5 dni",
+    "description3": "Tečaji prostega potapljanja za otroke po programu Apnea Academy Kids as Dolphins. Učenje skozi igro v kristalno čistih vodah otoka Silba.",
+    "title4": "Bazenske vadbe",
+    "location4": "Ljubljana, Slovenija",
+    "time4": "Tedensko",
+    "duration4": "",
+    "description4": "Dinamična apneja s plavutmi in brez, statična apneja, dihanje, sprostitev in plavalne tehnike. Do 4 dni na teden.",
+    "title5": "Doživetje Bali",
+    "location5": "Bali, Indonezija",
+    "time5": "Marec",
+    "duration5": "1 teden",
+    "description5": "Naš program prostega potapljanja na Baliju je zasnovan za odrasle, ki želijo raziskovati potapljanje na vdih v osredotočenem, varnem in navdihujočem okolju."
+  },
+  "coursesPage": {
+    "location": "Izkušnje",
+    "title": "Tečaji in treningi",
+    "subtitle": "Po filozofiji Apnea Academy"
+  },
+  "quote": {
+    "text1": "Potapljač s komprimiranim zrakom se potaplja, da gleda naokoli,",
+    "text2": "",
+    "freediver": "PROSTI POTAPLJAČ",
+    "text3": "se potaplja, da gleda",
+    "inside": "V SEBE",
+    "author": "Umberto Pelizzari",
+    "authorTitle": "Ustanovitelj Apnea Academy International"
+  },
+  "newsletter": {
+    "label": "Ostanite povezani",
+    "title": "Pridružite se nam",
+    "description": "Naročite se na novice o prihajajočih tečajih, dogodkih in spoznanjih iz sveta prostega potapljanja.",
+    "placeholder": "Vaš e-poštni naslov",
+    "button": "Naroči se",
+    "submitting": "Naročanje...",
+    "success": "Dobrodošli v Inhale Blue! Kmalu preverite nabiralnik.",
+    "errorEmail": "Prosimo, vnesite veljaven e-poštni naslov"
+  },
+  "footer": {
+    "tagline": "Šola prostega potapljanja · Apnea Academy",
+    "about": "O nas",
+    "courses": "Tečaji",
+    "team": "Ekipa",
+    "contact": "Kontakt",
+    "rights": "Vse pravice pridržane."
+  }
+}

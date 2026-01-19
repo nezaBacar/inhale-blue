@@ -1,0 +1,11 @@
+{
+  "formFirstName": "First Name",
+  "formLastName": "Last Name",
+  "formEmail": "Email",
+  "formMessage": "Message",
+  "formPlaceholder": "Tell us about yourself and which dates you're interested in...",
+  "formButton": "Send Inquiry",
+  "formSending": "Sending...",
+  "formSuccess": "Message successfully sent! We'll get back to you soon.",
+  "formError": "Please fill in all required fields"
+}
