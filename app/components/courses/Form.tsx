@@ -6,13 +6,13 @@ import Contact from "@/app/components/form/Contact";
 interface CourseBookingFormProps {
   labelKey: string;
   titleKey: string;
-  onSubmit: (formData: { firstName: string; lastName: string; email: string; message: string }) => void;
+  coursePage: string;
 }
 
 const CourseBookingForm = ({
   labelKey,
   titleKey,
-  onSubmit,
+  coursePage
 }: CourseBookingFormProps) => {
   const { t } = useTranslation();
 
@@ -35,9 +35,14 @@ const CourseBookingForm = ({
     }
 
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    onSubmit(formData);
-    setFormData({ firstName: "", lastName: "", email: "", message: "" });
+
+    await fetch("/api/course-application", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({...formData, coursePage }),
+    });
+
+    setFormData({ firstName: "", lastName: "", email: "", message: "", });
     setIsSubmitting(false);
     setSent(true);
   };

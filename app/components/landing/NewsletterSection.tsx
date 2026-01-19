@@ -23,8 +23,11 @@ const NewsletterSection = () => {
 
     setIsSubmitting(true);
     
-    // Simulate submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    await fetch("/api/newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email }),
+    });
     
     setEmail("");
     setIsSubmitting(false);
