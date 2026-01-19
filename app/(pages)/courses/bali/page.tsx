@@ -120,10 +120,7 @@ const Bali = () => {
       <CourseBookingForm
         labelKey="bali.formLabel"
         titleKey="bali.formTitle"
-        onSubmit={(formData) => {
-          // Handle form submission, e.g., send to API or show toast
-          console.log("Form submitted:", formData);
-        }}
+        coursePage="Bali"
       />  
 
       {/* Footer */}

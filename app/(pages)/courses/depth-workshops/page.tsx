@@ -125,10 +125,7 @@ const DepthWorkshops = () => {
       <CourseBookingForm
         labelKey="depthWorkshops.formLabel"
         titleKey="depthWorkshops.formTitle"
-        onSubmit={(formData) => {
-          // Handle form submission, e.g., send to API or show toast
-          console.log("Form submitted:", formData);
-        }}
+        coursePage="Depth Workshops"
       />  
 
       {/* Footer */}

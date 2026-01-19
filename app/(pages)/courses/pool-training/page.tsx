@@ -149,10 +149,7 @@ const PoolTraining = () => {
       <CourseBookingForm
         labelKey="poolTraining.formLabel"
         titleKey="poolTraining.formTitle"
-        onSubmit={(formData) => {
-          // Handle form submission, e.g., send to API or show toast
-          console.log("Form submitted:", formData);
-        }}
+        coursePage="Pool Training"
       />  
 
       {/* Footer */}

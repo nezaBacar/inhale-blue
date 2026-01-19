@@ -158,10 +158,7 @@ const BlueWeekPag = () => {
       <CourseBookingForm
         labelKey="blueWeek.bookingLabel"
         titleKey="blueWeek.bookingTitle"
-        onSubmit={(formData) => {
-          // Handle form submission, e.g., send to API or show toast
-          console.log("Form submitted:", formData);
-        }}
+        coursePage="Blue Week PAG"
       />  
 
       {/* Footer */}

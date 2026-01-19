@@ -132,10 +132,7 @@ const ChildrenOfSilba = () => {
       <CourseBookingForm
         labelKey="childrenOfSilba.formLabel"
         titleKey="childrenOfSilba.formTitle"
-        onSubmit={(formData) => {
-          // Handle form submission, e.g., send to API or show toast
-          console.log("Form submitted:", formData);
-        }}
+        coursePage="Children of Silba"
       />  
 
       {/* Footer */}
