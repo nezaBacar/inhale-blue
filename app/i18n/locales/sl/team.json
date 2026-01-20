@@ -1,25 +1,28 @@
 {
   "label": "Spoznajte ekipo",
   "title": "Naši inštruktorji",
-  "subtitle": "Strastni prosti potapljači, predani deljenju radosti globine.",
+  "subtitle": "Strastni prosti potapljači, predani deljenju radosti pod vodo.",
   "ctaTitle": "Pripravljeni za potop z nami?",
-  "ctaText": "Pridružite se enemu od naših tečajev in doživite transformativno moč prostega potapljanja z našo strastno ekipo inštruktorjev.",
+  "ctaText": "Pridružite se enemu od naših tečajev in doživite transformativno moč prostega potapljanja z našo ekipo inštruktorjev.",
   "ctaButton": "Poglej tečaje",
+  
   "name1": "Tadej Černoš",
   "role1": "Apnea Academy Instructor Trainer",
-  "bio1_1": "Tadej je lastnik šole prostega potapljanja Inhale Blue. Več kot 15 let aktivno raziskuje globino morja in človeško stanje. Leta 2010 je postal inštruktor v Apnea Academy, svetovno priznanega šole prostega potapljanja, ki nudi najbolj celovito izobraževanje na tem področju.",
-  "bio1_2": "Umberto Pelizzari je Tadeja povabil, da se присоедini njegovemu mednarodnemu timu Apnea Academy trenerjev, ki izobraževati nove inštruktorje prostega potapljanja.",
-  "bio1_3": "Tadej je diplomant Fakultete za šport Univerze v Ljubljani, soudajalec SkiCross Academy, trener slovenske B reprezentance in udeleženec zimskih olimpijskih iger v Vancouvru in Sočiju. Kot osebni trener pomaga številnim športnikom doseči večjo vzdržljivost, motorične spretnosti, eksplozivnost in vzdržljivost.",
-  "bio1_4": "Njegove raznolike znanje vseh športnih disciplin in poglobljeno razumevanje delovanja človeškega telesa mu omogočajo, da vsakemu posamezniku pomaga doseči željene rezultate. Verjame v holistični in individualizirani pristop, medsebojno zaupanje in odgovornost. Težave premaguje s smehom, njegova življenjska energija pa je posebna vrsta gravitacijske sile.",
+  "bio1_1": "Tadej je vodja šole Inhale Blue. Globine morja in sebe aktivno raziskuje že več kot 15 let. Leta 2010 je postal inštruktor v Apnea Academy, svetovno priznani šoli potapljanja na vdih, ki omogoča najbolj celostno izobraževanje na tem področju.",
+  "bio1_2": "Na povabilo Umberta Pelizzarija je postal tudi del mednarodne ekipe učiteljev, ki izobražujejo nove inštruktorje potapljanja na vdih.",
+  "bio1_3": "Sicer je diplomiral na ljubljanski Fakulteti za šport, soustanovil SkiCross Academy, treniral slovensko B reprezentanco ter sodeloval na zimskih olimpijskih igrah v Vancouvru in Sočiju. Kot osebni trener pomaga številnim športnikom pri doseganju boljše vzdržljivosti, razvoju motorike, eksplozivnosti in kondicije, svojo ekspertizo pa dopolnjuje s poznavanjem nutricionizma in športne psihologije.",
+  "bio1_4": "Vsestransko znanje iz vseh športnih disciplin in poglobljeno razumevanje delovanja človeškega telesa mu omogočata, da vsakemu posamezniku pomaga doseči želeni rezultat. Verjame v celosten in individualen pristop ter v medsebojno zaupanje in odgovornost. Težave premaguje s smehom, njegova življenjska energija pa je svojevrstna gravitacijska sila.",
+  
   "name2": "Dunia Quintero Rosquete",
-  "role2": "Atletinja, Varnostna ronilka, AA inštruktorka",
-  "bio2_1": "Njeno potovanje v prostem potapljanju se je začelo kot hobi, vendar se je hitro razvilo v profesionalno dejavnost, ko je naredila pogumen korak proti prvenstvom in tekmovanjem.",
-  "bio2_2": "V zadnjem času se je prebila v izobraževalni vidik športa, svoj prvotni slon preoblikovala v izpolnjevajočo kariero. Ta pot ji je darovala širok spekter veščin in izkušenj v prostem potapljanju, od tega, da je bila študentka in atletinja, do učiteljice, varnostne ronilke in končno sodnice.",
-  "bio2_3": "Je večstransko aktivna in predana oseba z neomajno odločnostjo, da nadaljuje z učenjem in soočanjem z izzivi, ki jih freediving vsak dan predstavlja.",
+  "role2": "Atletinja, AA inštruktorka",
+  "bio2_1": "V svet prostega potapljanja se je sprva podala ljubiteljsko, vendar se je hobi hitro razvil v profesionalno dejavnost, ko je naredila pogumen korak proti prvenstvom in tekmovanjem.",
+  "bio2_2": "V zadnjem času se ukvarja z izobraževalnim vidikom športa. Ta pot ji je omogočila širok spekter veščin in izkušenj v potapljanju na vdih, od tega, da je bila študentka in atletinja, do učiteljice, varnostne potapljačice in končno sodnice.",
+  "bio2_3": "Je večstransko aktivna in predana oseba z neomajno odločnostjo, da ne preneha z učenjem in soočanjem z izzivi, pred katere jo vsak dan postavlja potapljanje na vdih.",
   "quote2": "Ne učim prostega potapljanja ... Delim svojo strast.",
+  
   "name3": "Nik Škrlec",
   "role3": "Prosti potapljač, Videograf, Inštruktor",
-  "bio3_1": "Nik Škrlec je izkušeni prosti potapljač s piko za preseganje meja in raziskovanje globin človekovega potenciala. Njegov edinstven pristop k prostemu potapljanju temelji na prepričanju, da sta igra in eksperimentiranje integral za razvoj novih veščin in obvladovanje umetnosti prostega potapljanja brez omejitev.",
-  "bio3_2": "Obiskal je več tečajev v Y40 z Miguelom Lozanom in Andreo Zuccari. Rad usmerja pozornost na fiziologijo in mehaniko izravnave ter sprostitve pri prostem potapljanju.",
-  "bio3_3": "Leta 2021 je Nik postal certificiran inštruktor po intenzivnem inštruktorskem tečaju pod vodstvom priznane ronilke Linde Paganelli na Tenerife. Od takrat je poučeval drugi umetnost prostega potapljanja poletje, pri čemer je vključeval svoje inovativne ideje in tehnike v vsak pouk ter ustanovil Kamenjak Freediving, prosti potapljaški klub v Kamenjaču, Hrvaška."
+  "bio3_1": "Nik Škrlec je izkušeni prosti potapljač nagnjen k preseganju meja in raziskovanju globin človekovega potenciala. Njegov edinstven pristop k prostemu potapljanju temelji na prepričanju, da sta igra in eksperimentiranje ključna za razvoj novih veščin in obvladovanje umetnosti prostega potapljanja brez omejitev.",
+  "bio3_2": "Obiskal je več tečajev v bazenu Y40 z Miguelom Lozanom in Andreo Zuccari. Rad se osrodotoča na fiziologijo in mehaniko izenačitve ter sprostitve pri prostem potapljanju.",
+  "bio3_3": "Po intenzivnem inštruktorskem tečaju pod vodstvom priznane ronilke Linde Paganelli na Tenerife je leta 2021 Nik postal certificiran inštruktor. Od takrat je poletja preživel s poučevanjem prostega potapljanja, v kar pa je vključil svoje inovativne ideje ter ustanovil Kamenjak Freediving, potapljaški klub v Kamenjaku na Hrvaškem."
 }

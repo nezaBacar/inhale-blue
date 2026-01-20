@@ -149,7 +149,7 @@ const PoolTraining = () => {
       <CourseBookingForm
         labelKey="poolTraining.formLabel"
         titleKey="poolTraining.formTitle"
-        coursePage="Pool Training"
+        coursePage="Pool Training Course"
       />  
 
       {/* Footer */}

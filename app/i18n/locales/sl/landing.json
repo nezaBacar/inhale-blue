@@ -20,7 +20,7 @@
     "backToHome": "← Nazaj domov"
   },
   "hero": {
-    "subtitle": "Šola proste potapljanja",
+    "subtitle": "Šola potapljanja na vdih",
     "title1": "Odkrijte",
     "title2": "tihi svet",
     "philosophy": "Po filozofiji Apnea Academy",
@@ -28,10 +28,10 @@
   },
   "about": {
     "label": "O nas",
-    "title1": "Ponovno odkrijte svojo",
-    "title2": "vodno naravo",
-    "paragraph1": "Inhale Blue je šola prostega potapljanja, ki temelji na filozofiji in didaktiki Apnea Academy. Naš pristop ni usmerjen v številke — ne gre za metre globine ali čas apneje. Prizadevamo si za občutke: sprostitev in uživanje pod vodo.",
-    "paragraph2": "Naše izhodišče je človekova vodna narava. To pomeni, da smo vsi že prosti potapljači, in s pravim pristopom ter znanjem le odkrivamo, kar je že del naše narave."
+    "title1": "Ponovno odkrijte",
+    "title2": "potapljača v sebi",
+    "paragraph1": "Inhale Blue je šola potapljanja na vdih, ki deluje po metodah Apnea Academy. Naše učenje temelji na človekovem prirojenem občutku za podvodni svet. Verjamemo, da smo v osnovi vsi potapljači na vdih - s pravim znanjem le odkrijemo tisto, kar je že od nekdaj del nas.",
+    "paragraph2": "Naš pristop k potapljanju ni osredotočen na številke, kot so metri globine ali časi apneje. Pomembni so nam občutki – sproščenost in uživanje pod vodo. Verjamemo, da so vse globine dosegljive na varen in prijeten način."
   },
   "principles": {
     "label": "Naša filozofija",
@@ -39,15 +39,15 @@
     "title1": "Varnost",
     "description1": "Odgovorno potapljanje pomeni brezkompromisno skrb zase in za druge, pod vodo in nad njo.",
     "title2": "Zaupanje",
-    "description2": "Še pomembnejše od zaupanja drugim je zaupanje sebi — naučiti se poslušati svoje telo in um.",
+    "description2": "Še pomembnejše od zaupanja drugim je zaupanje sebi, zato se naučimo poslušati svoje telo in um.",
     "title3": "Ekipa",
     "description3": "Povezuje nas globoko prijateljstvo in močan občutek zaupanja, pripadnosti in enotnosti.",
-    "title4": "Izravnava",
+    "title4": "Izenačenje",
     "description4": "Učimo najsodobnejše tehnike izravnave tlaka v ušesih, kar omogoča popolnoma sproščene in prijetne potope.",
     "title5": "Sprostitev",
     "description5": "Popoln potop pomeni, da za trenutek pozabiš svet nad sabo in se popolnoma prepustiš vodi.",
     "title6": "Individualni pristop",
-    "description6": "V globini in apneji se vsak sooča s svojimi strahovi, zato se vsakemu posvečamo individualno.",
+    "description6": "V globini in apneji se vsak sooča s svojimi strahovi, zato se vsakemu posvetimo individualno.",
     "title7": "Uživanje",
     "description7": "Popolna sprostitev, občutek varnosti in zaupanje ekipe ustvarijo neverjetno povezanost s sabo in morjem.",
     "title8": "Celostna izkušnja",
@@ -57,31 +57,36 @@
     "label": "Izkušnje",
     "title": "Tečaji in treningi",
     "learnMore": "Več o tem",
+    
     "title1": "Modri teden na Pagu",
     "location1": "Hrvaška",
     "time1": "Junij & Avgust",
     "duration1": "6 dni",
     "description1": "Naš osrednji tečaj prostega potapljanja za začetnike in izkušene potapljače. 6 dni popolne potopitve v svet prostega potapljanja. Izkušnja, ki spreminja življenja.",
+    
     "title2": "Delavnice globine",
     "location2": "Padova, Italija",
     "time2": "Februar",
     "duration2": "1 dan",
-    "description2": "Enodnevni intenzivni trening v 40-metrskem bazenu. Osredotočenost na tehnike izravnave in sproščeno globinsko potapljanje z dvema serijama potopov in vajami z baloni.",
+    "description2": "Enodnevni intenzivni trening v 40-metrskem bazenu. Osredotočenost na tehnike izenačenja in sproščeno globinsko potapljanje z dvema serijama potopov in vajami z baloni.",
+    
     "title3": "Otroci Silbe",
     "location3": "Silba, Hrvaška",
     "time3": "Julij",
     "duration3": "5 dni",
-    "description3": "Tečaji prostega potapljanja za otroke po programu Apnea Academy Kids as Dolphins. Učenje skozi igro v kristalno čistih vodah otoka Silba.",
+    "description3": "Tečaji prostega potapljanja za otroke po programu 'Apnea Academy Kids as Dolphins'. Učenje skozi igro v kristalno čistih vodah otoka Silba.",
+    
     "title4": "Bazenske vadbe",
     "location4": "Ljubljana, Slovenija",
     "time4": "Tedensko",
     "duration4": "",
     "description4": "Dinamična apneja s plavutmi in brez, statična apneja, dihanje, sprostitev in plavalne tehnike. Do 4 dni na teden.",
+    
     "title5": "Doživetje Bali",
     "location5": "Bali, Indonezija",
     "time5": "Marec",
     "duration5": "1 teden",
-    "description5": "Naš program prostega potapljanja na Baliju je zasnovan za odrasle, ki želijo raziskovati potapljanje na vdih v osredotočenem, varnem in navdihujočem okolju."
+    "description5": "Naš program prostega potapljanja na Baliju je zasnovan za tiste, ki želijo raziskovati potapljanje na vdih v varnem in navdihujočem okolju."
   },
   "coursesPage": {
     "location": "Izkušnje",
@@ -89,22 +94,22 @@
     "subtitle": "Po filozofiji Apnea Academy"
   },
   "quote": {
-    "text1": "Potapljač s komprimiranim zrakom se potaplja, da gleda naokoli,",
+    "text1": "Potapljač z jeklenko se potaplja, da opazuje okolico,",
     "text2": "",
     "freediver": "PROSTI POTAPLJAČ",
-    "text3": "se potaplja, da gleda",
-    "inside": "V SEBE",
+    "text3": "se potaplja, da opazuje",
+    "inside": "SEBE",
     "author": "Umberto Pelizzari",
     "authorTitle": "Ustanovitelj Apnea Academy International"
   },
   "newsletter": {
     "label": "Ostanite povezani",
-    "title": "Pridružite se nam",
+    "title": "Potopite se z nami",
     "description": "Naročite se na novice o prihajajočih tečajih, dogodkih in spoznanjih iz sveta prostega potapljanja.",
     "placeholder": "Vaš e-poštni naslov",
     "button": "Naroči se",
     "submitting": "Naročanje...",
-    "success": "Dobrodošli v Inhale Blue! Kmalu preverite nabiralnik.",
+    "success": "Dobrodošli v Inhale Blue! Preverite nabiralnik.",
     "errorEmail": "Prosimo, vnesite veljaven e-poštni naslov"
   },
   "footer": {

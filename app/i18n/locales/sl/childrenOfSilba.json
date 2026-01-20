@@ -31,6 +31,8 @@
   "structureNote": "Na voljo prožne možnosti — pridružite se za eno serijo, cel dan ali celoten 3-dnevni tečaj.",
   "pricingLabel": "Prožne možnosti",
   "pricingTitle": "Cene",
+  "datesLabel": "Kdaj",
+  "datesTitle": "Termini",
   "pricingOneDive": "1 serija potopov",
   "pricingOneDay": "1 dan (2 seriji)",
   "pricingFullCourse": "Celoten 3-dnevni tečaj (6 serij)",
@@ -40,9 +42,8 @@
   "includes1": "Profesionalno poučevanje s certifikatom AA KAD",
   "includes2": "Vsa potrebna potapljaška oprema",
   "includes3": "Učno okolje z majhnimi skupinami",
-  "includes4": "Potrdilo ob zaključku tečaja",
-  "includes5": "Fotografski spomini s serij",
-  "includes6": "20 % popust za brate in sestre",
+  "includes4": "20 % popust za brate in sestre",
+  "includes5": "Veliko zabave",
   "formLabel": "Prijava",
   "formTitle": "Prijavite svojega otroka"
 }

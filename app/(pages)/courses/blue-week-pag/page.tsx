@@ -8,7 +8,7 @@ import HeroSection from "@/app/components/courses/Hero";
 import CourseIntroduction from "@/app/components/courses/Introduction";
 import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
-import { PAG_DATES, PAG_PRICING_APARTMENT, PAG_PRICING_NO_APARTMENT } from "@/app/consts";
+import { PAG_DATES, PAG_PRICING } from "@/app/consts";
 
 const BlueWeekPag = () => {
   const { t } = useTranslation();
@@ -62,7 +62,7 @@ const BlueWeekPag = () => {
             </FadeInSection>
             <FadeInSection delay={0.2}>
               <p className="text-primary-foreground/70 text-base mt-6 font-body">
-                {t('blueWeek.scheduleNote')}
+                {t('blueWeek.scheduleText2')}
               </p>
             </FadeInSection>
           </div>
@@ -89,7 +89,7 @@ const BlueWeekPag = () => {
                       className="flex items-center gap-4 p-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
                     >
                       <div className="w-2 h-2 rounded-full bg-accent" />
-                      <span className="font-display text-lg text-foreground">
+                      <span className="font-bold font-display text-lg text-foreground">
                         {date}
                       </span>
                     </div>
@@ -110,22 +110,11 @@ const BlueWeekPag = () => {
                 <div className="p-8 bg-secondary rounded-sm">
                   <div className="mb-6">
                     <span className="font-display text-4xl text-primary">
-                      {PAG_PRICING_NO_APARTMENT}
-                    </span>
-                    <span className="text-muted-foreground font-body ml-2">
-                      {t('blueWeek.priceWithout')}
-                    </span>
-                  </div>
-                  <div className="mb-8">
-                    <span className="font-display text-4xl text-primary">
-                      {PAG_PRICING_APARTMENT}
-                    </span>
-                    <span className="text-muted-foreground font-body ml-2">
-                      {t('blueWeek.priceWith')}
+                      {PAG_PRICING}
                     </span>
                   </div>
                   <ul className="space-y-3">
-                    {[1, 2, 3, 4, 5, 6].map((index) => (
+                    {[1, 2, 3, 4, 5].map((index) => (
                       <li
                         key={index}
                         className="flex items-start gap-3 text-muted-foreground font-body text-sm"
@@ -158,7 +147,7 @@ const BlueWeekPag = () => {
       <CourseBookingForm
         labelKey="blueWeek.bookingLabel"
         titleKey="blueWeek.bookingTitle"
-        coursePage="Blue Week PAG"
+        coursePage="Blue Week Pag"
       />  
 
       {/* Footer */}

@@ -9,7 +9,7 @@ import CourseIntroduction from "@/app/components/courses/Introduction";
 import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import CourseIncludesList from "@/app/components/courses/Includes";
-import { BALI_PRICE } from "@/app/consts";
+import { BALI_PRICE, BALI_DATE } from "@/app/consts";
 
 const Bali = () => {
   const { t } = useTranslation();
@@ -67,11 +67,6 @@ const Bali = () => {
               })}
               </div>
             </FadeInSection>
-            <FadeInSection delay={0.2}>
-              <p className="text-primary-foreground/70 text-base mt-8 font-body">
-                {t('bali.structureNote')}
-              </p>
-            </FadeInSection>
           </div>
         </div>
       </section>
@@ -82,13 +77,20 @@ const Bali = () => {
           <div className="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
             {/* Pricing Options */}
             <FadeInSection>
-                <div>
+              <div>
                 <span className="text-accent text-sm tracking-[0.3em] uppercase font-body">
                     {t('bali.pricingLabel')}
                 </span>
                 <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                     {t('bali.pricingTitle')}
                 </h2>
+                <div
+                  className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
+                >
+                  <span className="font-display text-lg text-foreground font-bold">
+                    {BALI_DATE}
+                  </span>
+                </div>
                 <div className="p-8 border border-border rounded-sm hover:border-primary/30 transition-colors">
                     <div className="flex items-baseline gap-2 mb-4">
                     <span className="font-display text-5xl text-primary">{BALI_PRICE}</span>
@@ -98,10 +100,7 @@ const Bali = () => {
                     {t('bali.priceDescription')}
                     </p>
                 </div>
-                <p className="mt-6 text-muted-foreground font-body text-sm">
-                    {t('bali.pricingNote')}
-                </p>
-                </div>
+              </div>
             </FadeInSection>
 
             {/* What's Included */}
@@ -110,6 +109,7 @@ const Bali = () => {
                 labelKey="bali.includesLabel"
                 titleKey="bali.includesTitle"
                 itemsPrefix="bali.includes"
+                itemCount={5}
               />
             </FadeInSection>
           </div>
@@ -120,7 +120,7 @@ const Bali = () => {
       <CourseBookingForm
         labelKey="bali.formLabel"
         titleKey="bali.formTitle"
-        coursePage="Bali"
+        coursePage="Bali Course"
       />  
 
       {/* Footer */}

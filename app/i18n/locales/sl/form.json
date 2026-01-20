@@ -3,9 +3,9 @@
   "formLastName": "Priimek",
   "formEmail": "E-pošta",
   "formMessage": "Sporočilo",
-  "formPlaceholder": "Povejte nam o sebi in katere termine vas zanimajo...",
-  "formButton": "Pošlji povpraševanje",
+  "formPlaceholder": "Povejte nam kateri termini vas zanimajo ...",
+  "formButton": "Pošlji",
   "formSending": "Pošiljanje...",
-  "formSuccess": "Sporočilo uspešno poslano! Pričakujte odgovor v roku nekaj dni.",
+  "formSuccess": "Sporočilo uspešno poslano! Odgovor lahko pričakujete v nekaj dneh.",
   "formError": "Prosimo, izpolnite vsa obvezna polja"
 }

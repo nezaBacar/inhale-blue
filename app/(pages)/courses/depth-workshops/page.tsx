@@ -9,7 +9,7 @@ import CourseIntroduction from "@/app/components/courses/Introduction";
 import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import CourseIncludesList from "@/app/components/courses/Includes";
-import { DEPTH_WORKSHOP_PRICE } from "@/app/consts";
+import { DEPTH_WORKSHOP_PRICE, DEPTH_WORKSHOP_DATE } from "@/app/consts";
 
 const DepthWorkshops = () => {
   const { t } = useTranslation();
@@ -94,6 +94,13 @@ const DepthWorkshops = () => {
                 <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                   {t('depthWorkshops.pricingTitle')}
                 </h2>
+                <div
+                  className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
+                >
+                  <span className="font-display text-lg text-foreground font-bold">
+                    {DEPTH_WORKSHOP_DATE}
+                  </span>
+                </div>
                 <div className="p-8 border border-border rounded-sm hover:border-primary/30 transition-colors">
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="font-display text-5xl text-primary">{DEPTH_WORKSHOP_PRICE}</span>
@@ -115,6 +122,7 @@ const DepthWorkshops = () => {
                 labelKey="depthWorkshops.includesLabel"
                 titleKey="depthWorkshops.includesTitle"
                 itemsPrefix="depthWorkshops.includes"
+                itemCount={5}
               />
             </FadeInSection>
           </div>

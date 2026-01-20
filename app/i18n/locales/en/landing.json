@@ -30,16 +30,16 @@
     "label": "About Us",
     "title1": "Rediscover your",
     "title2": "aquatic nature",
-    "paragraph1": "Inhale Blue is a freediving school based on Apnea Academy philosophy and didactics. Our approach is not numbers-oriented—it is not about meters of depth or times of apnea. What we strive for are feelings: relaxation and enjoyment underwater.",
-    "paragraph2": "Our starting point is humans' aquatic nature. This means we are all already freedivers, and with the right approach and knowledge, we only rediscover what is inherently part of our nature."
+    "paragraph1": "Inhale Blue is a freediving school that operates according to the methods of Apnea Academy. Our teaching is based on the human innate connection to the underwater world. We believe that, at our core, we are all freedivers – with the right knowledge, we simply discover what has always been a part of us.",
+    "paragraph2": "Our approach to diving is not focused on numbers, such as depth in meters or apnea times. What matters to us are the feelings – relaxation and enjoyment underwater. We believe that all depths can be reached in a safe and enjoyable way."
   },
   "principles": {
     "label": "Our Philosophy",
     "title": "Guiding principles",
     "title1": "Safety",
-    "description1": "Responsible diving means uncompromisingly looking after ourselves and others, underwater and above.",
+    "description1": "Responsible diving means looking after ourselves and others, underwater and above.",
     "title2": "Trust",
-    "description2": "Even more important than trusting others is trusting yourself—learning to listen to your body and mind.",
+    "description2": "Even more important than trusting others is trusting yourself, therefore we learn to listen to our body and mind.",
     "title3": "Team",
     "description3": "We are connected by deep friendship and a strong sense of trust, belonging, and unity.",
     "title4": "Equalization",
@@ -57,31 +57,36 @@
     "label": "Experiences",
     "title": "Courses & Training",
     "learnMore": "Learn more",
+
     "title1": "Blue Week in Pag",
     "location1": "Croatia",
     "time1": "June & August",
     "duration1": "6 days",
     "description1": "Our signature freediving course for beginners and experienced freedivers. 6 days of total immersion into the world of freediving. A life-changing experience.",
+    
     "title2": "Depth Workshops",
     "location2": "Padova, Italy",
     "time2": "February",
     "duration2": "1 day",
     "description2": "One-day intensive training in a 40-meter deep pool. Focus on equalization techniques and relaxed depth diving with two dive series and balloon exercises.",
+    
     "title3": "Children of Silba",
     "location3": "Silba, Croatia",
     "time3": "July",
     "duration3": "5 days",
     "description3": "Freediving courses for kids following the Apnea Academy Kids as Dolphins program. Learning through play in the crystal-clear waters of Silba island.",
+    
     "title4": "Pool Training",
     "location4": "Ljubljana, Slovenia",
     "time4": "Weekly",
     "duration4": "",
     "description4": "Dynamic apnea with and without fins, static apnea, breathing, relaxation, and swimming techniques. Up to 4 days per week.",
+    
     "title5": "Bali Experience",
     "location5": "Bali, Indonesia",
     "time5": "March",
     "duration5": "1 week",
-    "description5": "Our Bali freediving program is designed for adults seeking to explore breath-hold diving in a focused, safe, and inspiring environment."
+    "description5": "Our Bali freediving program is designed for the ones seeking to explore breath-hold diving in a focused, safe, and inspiring environment."
   },
   "coursesPage": {
     "location": "Experiences",
@@ -99,7 +104,7 @@
   },
   "newsletter": {
     "label": "Stay Connected",
-    "title": "Join our journey",
+    "title": "Dive with us",
     "description": "Subscribe to receive updates on upcoming courses, events, and insights into the world of freediving.",
     "placeholder": "Your email address",
     "button": "Subscribe",

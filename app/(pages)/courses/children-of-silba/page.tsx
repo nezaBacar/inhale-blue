@@ -9,7 +9,7 @@ import CourseIntroduction from "@/app/components/courses/Introduction";
 import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import CourseIncludesList from "@/app/components/courses/Includes";
-import { SILBA_FULL_COURSE_PRICE, SILBA_ONE_DAY_PRICE, SILBA_ONE_DIVE_PRICE } from "@/app/consts";
+import { SILBA_DATES, SILBA_FULL_COURSE_PRICE, SILBA_ONE_DAY_PRICE, SILBA_ONE_DIVE_PRICE } from "@/app/consts";
 
 const ChildrenOfSilba = () => {
   const { t } = useTranslation();
@@ -118,10 +118,26 @@ const ChildrenOfSilba = () => {
 
             {/* What's Included */}
             <FadeInSection delay={0.1}>
+              <div>
+                <span className="text-accent text-sm tracking-[0.3em] uppercase font-body">
+                  {t('childrenOfSilba.datesLabel')}
+                </span>
+                <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
+                  {t('childrenOfSilba.datesTitle')}
+                </h2>
+                <div
+                  className="flex items-center gap-4 p-4 mb-4 border border-border bg-secondary rounded-sm hover:border-primary/30 transition-colors"
+                >
+                  <span className="font-display text-lg text-foreground font-bold">
+                    {SILBA_DATES}
+                  </span>
+                </div>
+              </div>
               <CourseIncludesList
                 labelKey="childrenOfSilba.includesLabel"
                 titleKey="childrenOfSilba.includesTitle"
                 itemsPrefix="childrenOfSilba.includes"
+                itemCount={4}
               />
             </FadeInSection>
           </div>
@@ -132,7 +148,7 @@ const ChildrenOfSilba = () => {
       <CourseBookingForm
         labelKey="childrenOfSilba.formLabel"
         titleKey="childrenOfSilba.formTitle"
-        coursePage="Children of Silba"
+        coursePage="Children of Silba Course"
       />  
 
       {/* Footer */}
