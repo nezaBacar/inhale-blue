@@ -10,6 +10,7 @@ import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import CourseIncludesList from "@/app/components/courses/Includes";
 import { DEPTH_WORKSHOP_PRICE, DEPTH_WORKSHOP_DATE } from "@/app/consts";
+import Dates from "@/app/components/courses/Date";
 
 const DepthWorkshops = () => {
   const { t } = useTranslation();
@@ -63,7 +64,7 @@ const DepthWorkshops = () => {
               {[1, 2, 3, 4].map((item) => (
                 <FadeInSection key={item} delay={item * 0.1}>
                   <div className="flex flex-col md:flex-row gap-4 md:gap-8 p-6 bg-primary-foreground/10 backdrop-blur-sm rounded-sm border border-primary-foreground/20">
-                    <div className="md:w-48 flex-shrink-0">
+                    <div className="md:w-48 shrink-0">
                       <span className="text-ocean-surface font-display text-lg">
                         {t(`depthWorkshops.scheduleTime${item}`)}
                       </span>
@@ -94,17 +95,7 @@ const DepthWorkshops = () => {
                 <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                   {t('depthWorkshops.pricingTitle')}
                 </h2>
-                {DEPTH_WORKSHOP_DATE.map((date, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
-                  >
-                    <div className="w-2 h-2 rounded-full bg-accent" />
-                    <span className="font-display text-lg text-foreground font-bold">
-                      {date}
-                    </span>
-                  </div>
-                ))}
+                <Dates dates={DEPTH_WORKSHOP_DATE} />
                 <p className="mt-6 text-muted-foreground font-body text-sm">
                   {t('depthWorkshops.pricingNote')}
                 </p>

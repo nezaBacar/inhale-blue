@@ -10,6 +10,7 @@ import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import { PAG_DATES, PAG_PRICING } from "@/app/consts";
 import CourseIncludesList from "@/app/components/courses/Includes";
+import Dates from "@/app/components/courses/Date";
 
 const BlueWeekPag = () => {
   const { t } = useTranslation();
@@ -83,19 +84,7 @@ const BlueWeekPag = () => {
                 <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                   {t('blueWeek.datesTitle')}
                 </h2>
-                <div className="space-y-4">
-                  {PAG_DATES.map((date) => (
-                    <div
-                      key={date}
-                      className="flex items-center gap-4 p-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
-                    >
-                      <div className="w-2 h-2 rounded-full bg-accent" />
-                      <span className="font-bold font-display text-lg text-foreground">
-                        {date}
-                      </span>
-                    </div>
-                  ))}
-                </div>
+                <Dates dates={PAG_DATES} />
               </div>
             </FadeInSection>
 

@@ -10,6 +10,7 @@ import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import CourseIncludesList from "@/app/components/courses/Includes";
 import { SILBA_DATES, SILBA_FULL_COURSE_PRICE, SILBA_ONE_DAY_PRICE, SILBA_ONE_DIVE_PRICE } from "@/app/consts";
+import Dates from "@/app/components/courses/Date";
 
 const ChildrenOfSilba = () => {
   const { t } = useTranslation();
@@ -128,13 +129,7 @@ const ChildrenOfSilba = () => {
                   <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                     {t('childrenOfSilba.datesTitle')}
                   </h2>
-                  <div
-                    className="flex items-center gap-4 p-4 mb-4 border border-border bg-secondary rounded-sm hover:border-primary/30 transition-colors"
-                  >
-                    <span className="font-display text-lg text-foreground font-bold">
-                      {SILBA_DATES}
-                    </span>
-                  </div>
+                  <Dates dates={SILBA_DATES} backgroundColor="bg-secondary"/>
                 </div>
                 
                 <CourseIncludesList

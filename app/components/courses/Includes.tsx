@@ -6,7 +6,7 @@ interface CourseIncludesListProps {
   labelKey: string;
   titleKey: string;
   itemsPrefix: string;
-  pricing: string;
+  pricing?: string;
   itemCount?: number;
 }
 
@@ -28,12 +28,12 @@ const CourseIncludesList = ({
         {t(titleKey)}
       </h2>
       <div className="p-8 bg-secondary rounded-sm">
-        <div className="mb-6">
-          <span className="font-display text-4xl text-primary">
+        { pricing && <div className="mb-6">
+          <span className="font-display text-4xl text-primary pr-2">
             {pricing}
           </span>
           <span className="text-muted-foreground font-body">{t('depthWorkshops.priceNote')}</span>
-        </div>
+        </div> }
         <ul className="space-y-3">
           {Array.from({ length: itemCount }, (_, index) => (
             <li
