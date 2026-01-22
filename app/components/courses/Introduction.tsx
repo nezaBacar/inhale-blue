@@ -9,13 +9,15 @@ interface CourseIntroductionProps {
   title2Key: string;
   textKey: string;
   videoSrc?: string;
+  previewSrc?: string;
 }
 
 const CourseIntroduction = ({
   title1Key,
   title2Key,
   textKey,
-  videoSrc
+  videoSrc,
+  previewSrc
 }: CourseIntroductionProps) => {
   const { t } = useTranslation();
 
@@ -35,7 +37,7 @@ const CourseIntroduction = ({
             </p>
           </FadeInSection>
           { videoSrc && 
-            <Video className="pt-8 md:pt-16" src={videoSrc} />
+            <Video className="pt-8 md:pt-16" src={videoSrc} previewSrc={previewSrc} />
           }
         </div>
       </div>

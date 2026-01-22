@@ -53,7 +53,7 @@ const AboutSection = () => {
             {t('about.paragraph2')}
           </motion.p>
 
-          <Video className="pt-8 md:pt-16" src="https://www.youtube.com/embed/sVP4jR3Hfb4?wmode=opaque&enablejsapi=1&autoplay=1&modestbranding=1"/>
+          <Video className="pt-8 md:pt-16" src="https://www.youtube.com/embed/sVP4jR3Hfb4?wmode=opaque&enablejsapi=1&autoplay=1&modestbranding=1" previewSrc="/assets/preview.webp"/>
         </div>
       </div>
     </section>

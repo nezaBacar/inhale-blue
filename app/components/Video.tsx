@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-const Video = ({src, className}: {src: string, className?: string}) => {
+const Video = ({src,previewSrc, className}: {src: string, previewSrc?: string, className?: string}) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handlePlay = () => {
@@ -16,12 +16,14 @@ const Video = ({src, className}: {src: string, className?: string}) => {
         <div className="w-full aspect-[5/3] relative">
           {!isPlaying ? (
             <div className="relative w-full h-full cursor-pointer" onClick={handlePlay}>
-              <Image
-                src="/assets/preview.webp"
-                alt="Video preview"
-                fill
-                className="object-cover"
-              />
+              {previewSrc && (
+                <Image
+                  src={previewSrc}
+                  alt="Video preview"
+                  fill
+                  className="object-cover"
+                />
+              )}
               <div className="absolute inset-0 flex items-center justify-center">
                 <svg className="w-16 h-16 text-ocean-deep" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M8 5v10l8-5-8-5z" />

@@ -6,7 +6,6 @@ import NewsletterSection from "./components/landing/NewsletterSection";
 import PrinciplesSection from "./components/landing/PrinciplesSection";
 import QuoteSection from "./components/landing/QuoteSection";
 import Navigation from "./components/navigation/Navigation";
-import Video from "./components/Video";
 
 const Index = () => {
   return (

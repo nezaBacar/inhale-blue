@@ -41,6 +41,7 @@ const ChildrenOfSilba = () => {
         title2Key="childrenOfSilba.introTitle2"
         textKey="childrenOfSilba.introText"
         videoSrc="https://www.youtube.com/embed/ExYsAEpZwh0?wmode=opaque&enablejsapi=1"
+        previewSrc="/assets/silba-preview.webp"
       />
 
       {/* Features Grid */}
