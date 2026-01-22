@@ -40,6 +40,7 @@ const ChildrenOfSilba = () => {
         title1Key="childrenOfSilba.introTitle1"
         title2Key="childrenOfSilba.introTitle2"
         textKey="childrenOfSilba.introText"
+        videoSrc="https://www.youtube.com/embed/ExYsAEpZwh0?wmode=opaque&enablejsapi=1"
       />
 
       {/* Features Grid */}
@@ -85,7 +86,7 @@ const ChildrenOfSilba = () => {
       {/* Pricing */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 md:gap-16 max-w-5xl mx-auto">
             {/* Pricing Options */}
             <FadeInSection>
               <div>
@@ -118,27 +119,30 @@ const ChildrenOfSilba = () => {
 
             {/* What's Included */}
             <FadeInSection delay={0.1}>
-              <div>
-                <span className="text-accent text-sm tracking-[0.3em] uppercase font-body">
-                  {t('childrenOfSilba.datesLabel')}
-                </span>
-                <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
-                  {t('childrenOfSilba.datesTitle')}
-                </h2>
-                <div
-                  className="flex items-center gap-4 p-4 mb-4 border border-border bg-secondary rounded-sm hover:border-primary/30 transition-colors"
-                >
-                  <span className="font-display text-lg text-foreground font-bold">
-                    {SILBA_DATES}
+              <div className="flex flex-col gap-8 md:gap-4">
+                <div>
+                  <span className="text-accent text-sm tracking-[0.3em] uppercase font-body">
+                    {t('childrenOfSilba.datesLabel')}
                   </span>
+                  <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
+                    {t('childrenOfSilba.datesTitle')}
+                  </h2>
+                  <div
+                    className="flex items-center gap-4 p-4 mb-4 border border-border bg-secondary rounded-sm hover:border-primary/30 transition-colors"
+                  >
+                    <span className="font-display text-lg text-foreground font-bold">
+                      {SILBA_DATES}
+                    </span>
+                  </div>
                 </div>
+                
+                <CourseIncludesList
+                  labelKey="childrenOfSilba.includesLabel"
+                  titleKey="childrenOfSilba.includesTitle"
+                  itemsPrefix="childrenOfSilba.includes"
+                  itemCount={4}
+                />
               </div>
-              <CourseIncludesList
-                labelKey="childrenOfSilba.includesLabel"
-                titleKey="childrenOfSilba.includesTitle"
-                itemsPrefix="childrenOfSilba.includes"
-                itemCount={4}
-              />
             </FadeInSection>
           </div>
         </div>

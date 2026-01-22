@@ -2,17 +2,20 @@
 
 import { useTranslation } from "react-i18next";
 import { FadeInSection } from "@/app/components/FadeInSection";
+import Video from "../Video";
 
 interface CourseIntroductionProps {
   title1Key: string;
   title2Key: string;
   textKey: string;
+  videoSrc?: string;
 }
 
 const CourseIntroduction = ({
   title1Key,
   title2Key,
   textKey,
+  videoSrc
 }: CourseIntroductionProps) => {
   const { t } = useTranslation();
 
@@ -31,6 +34,9 @@ const CourseIntroduction = ({
               {t(textKey)}
             </p>
           </FadeInSection>
+          { videoSrc && 
+            <Video className="pt-8 md:pt-16" src={videoSrc} />
+          }
         </div>
       </div>
     </section>
