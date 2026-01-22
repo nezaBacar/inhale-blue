@@ -105,15 +105,6 @@ const DepthWorkshops = () => {
                     </span>
                   </div>
                 ))}
-                <div className="p-8 border border-border rounded-sm hover:border-primary/30 transition-colors">
-                  <div className="flex items-baseline gap-2 mb-4">
-                    <span className="font-display text-5xl text-primary">{DEPTH_WORKSHOP_PRICE}</span>
-                    <span className="text-muted-foreground font-body">{t('depthWorkshops.priceNote')}</span>
-                  </div>
-                  <p className="text-muted-foreground font-body text-sm">
-                    {t('depthWorkshops.priceDescription')}
-                  </p>
-                </div>
                 <p className="mt-6 text-muted-foreground font-body text-sm">
                   {t('depthWorkshops.pricingNote')}
                 </p>
@@ -126,6 +117,7 @@ const DepthWorkshops = () => {
                 labelKey="depthWorkshops.includesLabel"
                 titleKey="depthWorkshops.includesTitle"
                 itemsPrefix="depthWorkshops.includes"
+                pricing={DEPTH_WORKSHOP_PRICE}
                 itemCount={5}
               />
             </FadeInSection>

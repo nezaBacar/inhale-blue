@@ -6,6 +6,7 @@ interface CourseIncludesListProps {
   labelKey: string;
   titleKey: string;
   itemsPrefix: string;
+  pricing: string;
   itemCount?: number;
 }
 
@@ -13,6 +14,7 @@ const CourseIncludesList = ({
   labelKey,
   titleKey,
   itemsPrefix,
+  pricing,
   itemCount = 6,
 }: CourseIncludesListProps) => {
   const { t } = useTranslation();
@@ -26,6 +28,12 @@ const CourseIncludesList = ({
         {t(titleKey)}
       </h2>
       <div className="p-8 bg-secondary rounded-sm">
+        <div className="mb-6">
+          <span className="font-display text-4xl text-primary">
+            {pricing}
+          </span>
+          <span className="text-muted-foreground font-body">{t('depthWorkshops.priceNote')}</span>
+        </div>
         <ul className="space-y-3">
           {Array.from({ length: itemCount }, (_, index) => (
             <li

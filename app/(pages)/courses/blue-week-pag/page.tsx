@@ -9,6 +9,7 @@ import CourseIntroduction from "@/app/components/courses/Introduction";
 import CourseFeaturesGrid from "@/app/components/courses/FeaturesGrid";
 import CourseBookingForm from "@/app/components/courses/Form";
 import { PAG_DATES, PAG_PRICING } from "@/app/consts";
+import CourseIncludesList from "@/app/components/courses/Includes";
 
 const BlueWeekPag = () => {
   const { t } = useTranslation();
@@ -100,44 +101,13 @@ const BlueWeekPag = () => {
 
             {/* Pricing */}
             <FadeInSection delay={0.1}>
-              <div>
-                <span className="text-accent text-sm tracking-[0.3em] uppercase font-body">
-                  {t('blueWeek.pricingLabel')}
-                </span>
-                <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
-                  {t('blueWeek.pricingTitle')}
-                </h2>
-                <div className="p-8 bg-secondary rounded-sm">
-                  <div className="mb-6">
-                    <span className="font-display text-4xl text-primary">
-                      {PAG_PRICING}
-                    </span>
-                  </div>
-                  <ul className="space-y-3">
-                    {[1, 2, 3, 4, 5].map((index) => (
-                      <li
-                        key={index}
-                        className="flex items-start gap-3 text-muted-foreground font-body text-sm"
-                      >
-                        <svg
-                          className="w-5 h-5 text-accent flex-shrink-0 mt-0.5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                        {t(`blueWeek.includes${index}`)}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+              <CourseIncludesList
+                labelKey="blueWeek.pricingLabel"
+                titleKey="blueWeek.pricingTitle"
+                itemsPrefix="blueWeek.includes"
+                pricing={PAG_PRICING}
+                itemCount={5}
+              />
             </FadeInSection>
           </div>
         </div>
