@@ -15,7 +15,7 @@ export const SILBA_FULL_COURSE_PRICE = "€160";
 export const SILBA_DATES = "1.7.-5.7. 2026";
 
 export const DEPTH_WORKSHOP_PRICE = "€150";
-export const DEPTH_WORKSHOP_DATE = "21.2. 2026";
+export const DEPTH_WORKSHOP_DATE = ["21.2. 2026", "28.2. 2026"];
 
 export const POOL_TRAINING_SINGLE_SESSION_PRICE = "€12";
 export const POOL_TRAINING_MONTHLY_PASS_PRICE = "€65";

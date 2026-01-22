@@ -94,13 +94,16 @@ const DepthWorkshops = () => {
                 <h2 className="font-display text-3xl text-foreground font-light mt-4 mb-8">
                   {t('depthWorkshops.pricingTitle')}
                 </h2>
-                <div
-                  className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
-                >
-                  <span className="font-display text-lg text-foreground font-bold">
-                    {DEPTH_WORKSHOP_DATE}
-                  </span>
-                </div>
+                {DEPTH_WORKSHOP_DATE.map((date, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
+                  >
+                    <span className="font-display text-lg text-foreground font-bold">
+                      {date}
+                    </span>
+                  </div>
+                ))}
                 <div className="p-8 border border-border rounded-sm hover:border-primary/30 transition-colors">
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="font-display text-5xl text-primary">{DEPTH_WORKSHOP_PRICE}</span>
