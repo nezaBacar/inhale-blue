@@ -11,6 +11,8 @@ import CourseBookingForm from "@/app/components/courses/Form";
 import { PAG_DATES, PAG_PRICING } from "@/app/consts";
 import CourseIncludesList from "@/app/components/courses/Includes";
 import Dates from "@/app/components/courses/Date";
+import PhotoGallery from "@/app/components/photo-gallery/PhotoGallery";
+import { galleryImages } from "./consts";
 
 const BlueWeekPag = () => {
   const { t } = useTranslation();
@@ -101,6 +103,10 @@ const BlueWeekPag = () => {
           </div>
         </div>
       </section>
+
+      <main className="container mx-auto px-4 md:px-6 pb-20">
+        <PhotoGallery galleryImages={galleryImages} />
+      </main>
 
       {/* Booking Form */}
       <CourseBookingForm
