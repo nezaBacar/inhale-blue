@@ -99,6 +99,7 @@ const DepthWorkshops = () => {
                     key={index}
                     className="flex items-center gap-4 p-4 mb-4 border border-border rounded-sm hover:border-primary/30 transition-colors"
                   >
+                    <div className="w-2 h-2 rounded-full bg-accent" />
                     <span className="font-display text-lg text-foreground font-bold">
                       {date}
                     </span>
