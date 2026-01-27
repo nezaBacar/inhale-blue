@@ -11,7 +11,7 @@ import Link from "next/link";
 const Team = () => {
   const { t } = useTranslation();
 
-  const images = [ '/assets/team/tadej.webp', '/assets/team/dunia.webp', '/assets/team/nik.webp' ]
+  const images = [ '/assets/team/tadej.webp', '/assets/team/dunia.webp' ]
   
   return (
     <main className="min-h-screen bg-background">
@@ -64,7 +64,7 @@ const Team = () => {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto space-y-24">
-            {[1, 2, 3].map((index) => {
+            {[1, 2].map((index) => {
               return (
                 <FadeInSection key={index} delay={index * 0.1}>
                   <div className={`flex flex-col ${index % 2 === 1 ? "md:flex-row-reverse" : "md:flex-row"} gap-10 md:gap-16 items-start`}>
