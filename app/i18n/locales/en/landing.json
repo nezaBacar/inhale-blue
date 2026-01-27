@@ -59,7 +59,7 @@
     "learnMore": "Learn more",
 
     "title1": "Blue Week in Pag",
-    "location1": "Croatia",
+    "location1": "Pag, Croatia",
     "time1": "June & August",
     "duration1": "6 days",
     "description1": "Our signature freediving course for beginners and experienced freedivers. 6 days of total immersion into the world of freediving. A life-changing experience.",
@@ -82,10 +82,10 @@
     "duration4": "",
     "description4": "Dynamic apnea with and without fins, static apnea, breathing, relaxation, and swimming techniques. Up to 4 days per week.",
     
-    "title5": "Bali Experience",
+    "title5": "Camp Bali",
     "location5": "Bali, Indonesia",
     "time5": "March",
-    "duration5": "1 week",
+    "duration5": "10 days",
     "description5": "Our Bali freediving program is designed for the ones seeking to explore breath-hold diving in a focused, safe, and inspiring environment."
   },
   "coursesPage": {
@@ -96,9 +96,9 @@
   "quote": {
     "text1": "The scuba diver dives to look around,",
     "text2": "the",
-    "freediver": "FREEDIVER",
+    "freediver": "the freediver",
     "text3": "dives to look",
-    "inside": "INSIDE",
+    "inside": "inside",
     "author": "Umberto Pelizzari",
     "authorTitle": "Founder of Apnea Academy International"
   },

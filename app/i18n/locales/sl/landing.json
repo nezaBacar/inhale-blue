@@ -59,7 +59,7 @@
     "learnMore": "Več o tem",
     
     "title1": "Modri teden na Pagu",
-    "location1": "Hrvaška",
+    "location1": "Pag, Hrvaška",
     "time1": "Junij & Avgust",
     "duration1": "6 dni",
     "description1": "Naš osrednji tečaj prostega potapljanja za začetnike in izkušene potapljače. 6 dni popolne potopitve v svet prostega potapljanja. Izkušnja, ki spreminja življenja.",
@@ -82,10 +82,10 @@
     "duration4": "",
     "description4": "Dinamična apneja s plavutmi in brez, statična apneja, dihanje, sprostitev in plavalne tehnike. Do 4 dni na teden.",
     
-    "title5": "Doživetje Bali",
+    "title5": "Kamp Bali",
     "location5": "Bali, Indonezija",
     "time5": "Marec",
-    "duration5": "1 teden",
+    "duration5": "10 dni",
     "description5": "Naš program prostega potapljanja na Baliju je zasnovan za tiste, ki želijo raziskovati potapljanje na vdih v varnem in navdihujočem okolju."
   },
   "coursesPage": {
@@ -96,9 +96,9 @@
   "quote": {
     "text1": "Potapljač z jeklenko se potaplja, da opazuje okolico,",
     "text2": "",
-    "freediver": "PROSTI POTAPLJAČ",
+    "freediver": "prosti potapljač",
     "text3": "se potaplja, da opazuje",
-    "inside": "SEBE",
+    "inside": "sebe",
     "author": "Umberto Pelizzari",
     "authorTitle": "Ustanovitelj Apnea Academy International"
   },
