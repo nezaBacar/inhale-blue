@@ -22,7 +22,7 @@ const Team = () => {
       <section className="relative h-[60vh] min-h-100 w-full overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={'/assets/team-hero.jpg'}
+            src={'/assets/team-hero.png'}
             alt="Inhale Blue team diving together"
             className="w-full h-full object-cover"
             width='1920' height="1080"

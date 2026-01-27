@@ -24,7 +24,7 @@ const BlueWeekPag = () => {
 
       {/* Hero Section */}
       <HeroSection
-        imageSrc="/assets/pag-hero.jpg"
+        imageSrc="/assets/pag-hero.png"
         imageAlt="Freediving boat on crystal clear Adriatic sea near Pag, Croatia"
         locationKey="blueWeek.location"
         titleKey="blueWeek.title"

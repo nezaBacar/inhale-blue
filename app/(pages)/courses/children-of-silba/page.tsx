@@ -28,7 +28,7 @@ const ChildrenOfSilba = () => {
 
       {/* Hero Section */}
       <HeroSection
-        imageSrc="/assets/silba-kids-hero.jpg"
+        imageSrc="/assets/silba-kids-hero.png"
         imageAlt="Children learning freediving in crystal clear waters of Silba, Croatia"
         locationKey="childrenOfSilba.location"
         titleKey="childrenOfSilba.title"
@@ -41,8 +41,8 @@ const ChildrenOfSilba = () => {
         title1Key="childrenOfSilba.introTitle1"
         title2Key="childrenOfSilba.introTitle2"
         textKey="childrenOfSilba.introText"
-        videoSrc="https://www.youtube.com/embed/ExYsAEpZwh0?wmode=opaque&enablejsapi=1"
-        previewSrc="/assets/silba-preview.webp"
+        //videoSrc="https://www.youtube.com/embed/ExYsAEpZwh0?wmode=opaque&enablejsapi=1"
+        //previewSrc="/assets/silba-preview.webp"
       />
 
       {/* Features Grid */}
