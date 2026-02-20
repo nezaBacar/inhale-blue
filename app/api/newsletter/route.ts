@@ -16,7 +16,7 @@ export async function POST(request: NextRequest) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Inhale Blue <onboarding@resend.dev>", // TODO: Use your verified domain later
+      from: "Inhale Blue <hello@inhaleblue.com>", 
       to: process.env.RECIPIENT_EMAIL!,
       subject: `New Newsletter Application`,
       html: `
@@ -46,7 +46,7 @@ export async function POST(request: NextRequest) {
     if (error) {
       console.error("Resend error:", error);
       return NextResponse.json(
-        { error: "Failed to send email" },
+        { error },
         { status: 500 }
       );
     }
