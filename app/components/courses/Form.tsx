@@ -95,6 +95,7 @@ const CourseBookingForm = ({
                   onChange={(e) =>
                     setFormData({ ...formData, email: e.target.value })
                   }
+                  placeholder={t('newsletter.placeholder') }
                   className="w-full px-4 py-3 bg-background border border-border rounded-sm text-foreground focus:outline-none focus:border-primary transition-colors font-body"
                   required
                 />
